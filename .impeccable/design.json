@@ -1,0 +1,435 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-27T14:51:36.622Z",
+  "title": "Design System: The Game Test Space",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Newsprint Cream",
+        "canonical": "oklch(93.7% 0.014 88.7)",
+        "tonalRamp": [
+          "oklch(15% 0.014 88.7)",
+          "oklch(26% 0.014 88.7)",
+          "oklch(37% 0.014 88.7)",
+          "oklch(48% 0.014 88.7)",
+          "oklch(59% 0.014 88.7)",
+          "oklch(70% 0.014 88.7)",
+          "oklch(82% 0.014 88.7)",
+          "oklch(95% 0.014 88.7)"
+        ]
+      },
+      "paper-deep": {
+        "role": "neutral",
+        "displayName": "Deep Newsprint",
+        "canonical": "oklch(89.8% 0.020 87.5)",
+        "tonalRamp": [
+          "oklch(15% 0.020 87.5)",
+          "oklch(26% 0.020 87.5)",
+          "oklch(37% 0.020 87.5)",
+          "oklch(48% 0.020 87.5)",
+          "oklch(59% 0.020 87.5)",
+          "oklch(70% 0.020 87.5)",
+          "oklch(82% 0.020 87.5)",
+          "oklch(95% 0.020 87.5)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Press Ink",
+        "canonical": "oklch(20.8% 0.010 294.7)",
+        "tonalRamp": [
+          "oklch(15% 0.010 294.7)",
+          "oklch(26% 0.010 294.7)",
+          "oklch(37% 0.010 294.7)",
+          "oklch(48% 0.010 294.7)",
+          "oklch(59% 0.010 294.7)",
+          "oklch(70% 0.010 294.7)",
+          "oklch(82% 0.010 294.7)",
+          "oklch(95% 0.010 294.7)"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Ink",
+        "canonical": "oklch(35.0% 0.009 80.7)",
+        "tonalRamp": [
+          "oklch(15% 0.009 80.7)",
+          "oklch(26% 0.009 80.7)",
+          "oklch(37% 0.009 80.7)",
+          "oklch(48% 0.009 80.7)",
+          "oklch(59% 0.009 80.7)",
+          "oklch(70% 0.009 80.7)",
+          "oklch(82% 0.009 80.7)",
+          "oklch(95% 0.009 80.7)"
+        ]
+      },
+      "ink-mute": {
+        "role": "neutral",
+        "displayName": "Muted Ink",
+        "canonical": "oklch(47.2% 0.015 86.9)",
+        "tonalRamp": [
+          "oklch(15% 0.015 86.9)",
+          "oklch(26% 0.015 86.9)",
+          "oklch(37% 0.015 86.9)",
+          "oklch(48% 0.015 86.9)",
+          "oklch(59% 0.015 86.9)",
+          "oklch(70% 0.015 86.9)",
+          "oklch(82% 0.015 86.9)",
+          "oklch(95% 0.015 86.9)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Rule Ink",
+        "canonical": "oklch(20.8% 0.010 294.7)",
+        "tonalRamp": [
+          "oklch(15% 0.010 294.7)",
+          "oklch(26% 0.010 294.7)",
+          "oklch(37% 0.010 294.7)",
+          "oklch(48% 0.010 294.7)",
+          "oklch(59% 0.010 294.7)",
+          "oklch(70% 0.010 294.7)",
+          "oklch(82% 0.010 294.7)",
+          "oklch(95% 0.010 294.7)"
+        ]
+      },
+      "rule-soft": {
+        "role": "neutral",
+        "displayName": "Soft Rule",
+        "canonical": "oklch(81.5% 0.023 87.2)",
+        "tonalRamp": [
+          "oklch(15% 0.023 87.2)",
+          "oklch(26% 0.023 87.2)",
+          "oklch(37% 0.023 87.2)",
+          "oklch(48% 0.023 87.2)",
+          "oklch(59% 0.023 87.2)",
+          "oklch(70% 0.023 87.2)",
+          "oklch(82% 0.023 87.2)",
+          "oklch(95% 0.023 87.2)"
+        ]
+      },
+      "on-ink": {
+        "role": "neutral",
+        "displayName": "Ink-Side Cream",
+        "canonical": "oklch(93.7% 0.014 88.7)",
+        "tonalRamp": [
+          "oklch(15% 0.014 88.7)",
+          "oklch(26% 0.014 88.7)",
+          "oklch(37% 0.014 88.7)",
+          "oklch(48% 0.014 88.7)",
+          "oklch(59% 0.014 88.7)",
+          "oklch(70% 0.014 88.7)",
+          "oklch(82% 0.014 88.7)",
+          "oklch(95% 0.014 88.7)"
+        ]
+      },
+      "on-ink-mute": {
+        "role": "neutral",
+        "displayName": "Ink-Side Mute",
+        "canonical": "oklch(71.8% 0.020 83.1)",
+        "tonalRamp": [
+          "oklch(15% 0.020 83.1)",
+          "oklch(26% 0.020 83.1)",
+          "oklch(37% 0.020 83.1)",
+          "oklch(48% 0.020 83.1)",
+          "oklch(59% 0.020 83.1)",
+          "oklch(70% 0.020 83.1)",
+          "oklch(82% 0.020 83.1)",
+          "oklch(95% 0.020 83.1)"
+        ]
+      },
+      "ink-rule": {
+        "role": "neutral",
+        "displayName": "Ink-Side Rule",
+        "canonical": "oklch(34.6% 0.014 297.1)",
+        "tonalRamp": [
+          "oklch(15% 0.014 297.1)",
+          "oklch(26% 0.014 297.1)",
+          "oklch(37% 0.014 297.1)",
+          "oklch(48% 0.014 297.1)",
+          "oklch(59% 0.014 297.1)",
+          "oklch(70% 0.014 297.1)",
+          "oklch(82% 0.014 297.1)",
+          "oklch(95% 0.014 297.1)"
+        ]
+      },
+      "rec": {
+        "role": "primary",
+        "displayName": "Recording Orange",
+        "canonical": "oklch(70.4% 0.195 40.9)",
+        "tonalRamp": [
+          "oklch(15% 0.060 40.9)",
+          "oklch(26% 0.100 40.9)",
+          "oklch(37% 0.140 40.9)",
+          "oklch(48% 0.170 40.9)",
+          "oklch(59% 0.190 40.9)",
+          "oklch(70% 0.195 40.9)",
+          "oklch(82% 0.120 40.9)",
+          "oklch(95% 0.040 40.9)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The single giant cover word, printed in two inks across the cover plate edge. One per issue."
+      },
+      "masthead": {
+        "displayName": "Masthead",
+        "purpose": "The English wordmark beside the brand mark; largest on the cover."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section heads, always followed by a mono folio and a 4px rule."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Work card and cover story titles; scales up for spread and lead-work titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Default running text; Archivo for Latin and numerals, Noto Sans TC for CJK glyphs."
+      },
+      "body-read": {
+        "displayName": "Body Read",
+        "purpose": "Long-form article body, 38em measure, drop initial on the first paragraph."
+      },
+      "latin-tag": {
+        "displayName": "Latin Tag",
+        "purpose": "Condensed uppercase English companion to a Chinese heading, inline after or below it. Width set via font-stretch 70 to 75%."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "The Discord join button label."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Folios, dates, handles, bylines, chip meta and the REC timecode."
+      },
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "Contents-page numbers and cross-review scores."
+      },
+      "tagline": {
+        "displayName": "Tagline",
+        "purpose": "ONE BUTTON IS ALWAYS RECORDING, widely tracked (0.32em header, 0.5em footer)."
+      }
+    },
+    "shadows": [
+      {
+        "name": "seal-stamp",
+        "value": "inset 0 0 0 1px var(--ink), inset 0 0 0 2.5px var(--paper)",
+        "purpose": "Double ring of the 試玩推薦 rubber stamp; a printed mark, not elevation. The only box-shadow in the build."
+      }
+    ],
+    "materials": [
+      {
+        "name": "halftone-screen",
+        "value": "radial-gradient(rgb(24 23 28 / 0.3) 0.9px, transparent 1.6px) 0 0 / 4px 4px, mix-blend-mode: multiply",
+        "purpose": "Ink dot screen printed over every screenshot and plate."
+      },
+      {
+        "name": "rec-chip-ink",
+        "value": "rgb(24 23 28 / 0.82)",
+        "purpose": "Translucent ink behind the REC timecode on a picture."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-snap",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The one movement curve (ease-out-expo): viewfinder snap, tab slide, cover-line and contents nudges, button press."
+      },
+      {
+        "name": "t-snap",
+        "value": "220ms",
+        "purpose": "Duration for every movement on the snap curve."
+      },
+      {
+        "name": "color-swap",
+        "value": "160ms linear",
+        "purpose": "Join button fill and label swap."
+      },
+      {
+        "name": "tab-color",
+        "value": "140ms linear",
+        "purpose": "Thumb tab color change."
+      },
+      {
+        "name": "fade",
+        "value": "120ms linear",
+        "purpose": "Viewfinder bracket and REC chip opacity."
+      },
+      {
+        "name": "rec-blink",
+        "value": "1s steps(1) infinite",
+        "purpose": "REC and live dots blink to 20% opacity; disabled under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tab-rail",
+        "value": "1024px",
+        "note": "min-width: thumb tabs fixed to the right edge, 52px rail reserved"
+      },
+      {
+        "name": "cover-stack",
+        "value": "1100px",
+        "note": "max-width: cover plate and side column stack"
+      },
+      {
+        "name": "spread-stack",
+        "value": "900px",
+        "note": "max-width: spreads collapse to one column"
+      },
+      {
+        "name": "masthead-compact",
+        "value": "760px",
+        "note": "max-width: tagline and vertical name hidden"
+      },
+      {
+        "name": "phone",
+        "value": "640px",
+        "note": "max-width: cover lines hidden, single news column"
+      },
+      {
+        "name": "narrow",
+        "value": "560px",
+        "note": "max-width: score box two by two, Latin tag under heading"
+      },
+      {
+        "name": "tiny",
+        "value": "420px",
+        "note": "max-width: tab page numbers hidden"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Join Button (Ink)",
+      "kind": "button",
+      "refersTo": "button-join-ink",
+      "description": "The Discord join action on paper: ink pill, orange REC dot, trailing arrow. Inverts to paper on hover.",
+      "html": "<a class=\"ds-join-ink\" href=\"#\"><b class=\"ds-join__dot\" aria-hidden=\"true\"></b><span>加入 Discord</span><svg class=\"ds-join__arrow\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M3 13 13 3M5 3h8v8\"/></svg></a>",
+      "css": ".ds-join-ink { display: inline-flex; align-items: center; gap: 12px; min-height: 48px; padding: 0 20px 0 16px; font-family: 'Noto Sans TC', 'PingFang TC', sans-serif; font-weight: 900; font-size: 1.0625rem; letter-spacing: 0.04em; text-decoration: none; border: 3px solid var(--ink); border-radius: 999px; background: var(--ink); color: var(--paper); transition: background-color 160ms linear, color 160ms linear, transform 220ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-join-ink:hover { background: var(--paper); color: var(--ink); } .ds-join-ink:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; } .ds-join-ink:active { transform: translateY(1px) scale(0.98); } .ds-join-ink .ds-join__dot { width: 14px; height: 14px; border-radius: 50%; background: var(--rec); } .ds-join-ink .ds-join__arrow { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }"
+    },
+    {
+      "name": "Join Button (Paper)",
+      "kind": "button",
+      "refersTo": "button-join-paper",
+      "description": "The same join action on an ink spread (hotline, footer): cream pill, ink label.",
+      "html": "<div style=\"background:var(--ink);padding:24px\"><a class=\"ds-join-paper\" href=\"#\"><b class=\"ds-join__dot\" aria-hidden=\"true\"></b><span>加入 Discord</span><svg class=\"ds-join__arrow\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M3 13 13 3M5 3h8v8\"/></svg></a></div>",
+      "css": ".ds-join-paper { display: inline-flex; align-items: center; gap: 12px; min-height: 48px; padding: 0 20px 0 16px; font-family: 'Noto Sans TC', 'PingFang TC', sans-serif; font-weight: 900; font-size: 1.0625rem; letter-spacing: 0.04em; text-decoration: none; border: 3px solid var(--paper); border-radius: 999px; background: var(--paper); color: var(--ink); transition: background-color 160ms linear, color 160ms linear, transform 220ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-join-paper:hover { background: var(--ink); color: var(--paper); } .ds-join-paper:focus-visible { outline: 3px solid var(--paper); outline-offset: 3px; } .ds-join-paper:active { transform: translateY(1px) scale(0.98); } .ds-join-paper .ds-join__dot { width: 14px; height: 14px; border-radius: 50%; background: var(--rec); } .ds-join-paper .ds-join__arrow { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }"
+    },
+    {
+      "name": "Thumb-Index Tabs",
+      "kind": "nav",
+      "refersTo": "nav-thumb-tab",
+      "description": "Primary navigation as magazine thumb tabs cut into the right page edge; the current tab inverts to ink and sits further out.",
+      "html": "<nav class=\"ds-thumbs\" aria-label=\"主要分類\"><a class=\"ds-thumb\" href=\"#\" aria-current=\"page\"><span class=\"ds-thumb__label\">封面</span><span class=\"ds-thumb__page\">P.01</span></a><a class=\"ds-thumb\" href=\"#\"><span class=\"ds-thumb__label\">新聞</span><span class=\"ds-thumb__page\">P.04</span></a><a class=\"ds-thumb\" href=\"#\"><span class=\"ds-thumb__label\">專題</span><span class=\"ds-thumb__page\">P.08</span></a><a class=\"ds-thumb\" href=\"#\"><span class=\"ds-thumb__label\">作品</span><span class=\"ds-thumb__page\">P.16</span></a></nav>",
+      "css": ".ds-thumbs { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; } .ds-thumb { display: flex; flex-direction: column; align-items: center; gap: 8px; width: 52px; padding: 14px 0 12px; border: 2px solid var(--ink); border-right: 0; border-radius: 10px 0 0 10px; background: var(--paper-deep); color: var(--ink); font-family: 'Noto Sans TC', sans-serif; font-weight: 900; text-decoration: none; transition: background-color 140ms linear, color 140ms linear, transform 220ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-thumb__label { writing-mode: vertical-rl; font-size: 17px; letter-spacing: 0.24em; line-height: 1; } .ds-thumb__page { font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 700; color: var(--ink-mute); } .ds-thumb:hover { transform: translateX(-6px); } .ds-thumb:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; } .ds-thumb[aria-current='page'] { background: var(--ink); color: var(--paper); width: 62px; padding-right: 10px; transform: translateX(-10px); } .ds-thumb[aria-current='page'] .ds-thumb__page { color: var(--on-ink-mute); }"
+    },
+    {
+      "name": "Work Chips",
+      "kind": "chip",
+      "refersTo": "chip-work-meta",
+      "description": "Square ink meta chip pinned to a work picture; the orange status chip appears only for live or new work.",
+      "html": "<div style=\"display:flex;gap:12px;flex-wrap:wrap\"><span class=\"ds-chip\"><b class=\"ds-chip__status\">NEW</b>Demo · v1.2</span><span class=\"ds-chip\"><b class=\"ds-chip__status\">直播中</b>今晚 21:00</span><span class=\"ds-chip\">MOD · 3 張地圖</span></div>",
+      "css": ".ds-chip { display: inline-flex; align-items: center; gap: 8px; padding: 3px 8px; background: var(--ink); color: var(--paper); font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; letter-spacing: 0.02em; } .ds-chip__status { padding: 0 5px; margin-left: -4px; background: var(--rec); color: var(--ink); font-family: 'Noto Sans TC', sans-serif; font-weight: 900; }"
+    },
+    {
+      "name": "Cover Line",
+      "kind": "custom",
+      "refersTo": "cover-line",
+      "description": "The issue’s other headlines, printed as cream blocks on the cover plate edge with a mono page reference; the live line carries an orange dot.",
+      "html": "<div style=\"background:var(--ink);padding:16px;display:grid;justify-items:end;gap:6px\"><a class=\"ds-coverline\" href=\"#\"><b>《最後一班捷運》交叉評測 <span class=\"ds-coverline__score\">30/40</span></b><span class=\"ds-coverline__page\">P.12</span></a><a class=\"ds-coverline\" href=\"#\"><b><i class=\"ds-coverline__dot\" aria-hidden=\"true\"></i>直播中：作者正在直播開發</b><span class=\"ds-coverline__page\">P.04</span></a></div>",
+      "css": ".ds-coverline { display: flex; align-items: baseline; gap: 10px; padding: 6px 10px 7px 12px; background: var(--paper); color: var(--ink); font-family: 'Noto Sans TC', sans-serif; font-size: 0.9375rem; line-height: 1.4; text-decoration: none; transition: transform 220ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-coverline b { font-weight: 900; } .ds-coverline:hover { transform: translateX(-4px); } .ds-coverline:focus-visible { outline: 3px solid var(--paper); outline-offset: 3px; } .ds-coverline__page { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; color: var(--ink-mute); } .ds-coverline__score { font-family: 'JetBrains Mono', monospace; font-size: 0.85em; } .ds-coverline__dot { display: inline-block; width: 9px; height: 9px; margin-right: 6px; border-radius: 50%; background: var(--rec); }"
+    },
+    {
+      "name": "Viewfinder",
+      "kind": "custom",
+      "description": "Signature interaction: on hover or focus the brand’s viewfinder brackets snap around a picture and a REC chip with a running timecode appears.",
+      "html": "<a class=\"ds-vf\" href=\"#\"><span class=\"ds-vf__plate\"></span><i class=\"ds-vf__c ds-vf__c--tl\"></i><i class=\"ds-vf__c ds-vf__c--tr\"></i><i class=\"ds-vf__c ds-vf__c--bl\"></i><i class=\"ds-vf__c ds-vf__c--br\"></i><span class=\"ds-vf__rec\"><b class=\"ds-vf__dot\"></b>REC 00:04:12</span></a>",
+      "css": ".ds-vf { position: relative; display: block; width: 280px; aspect-ratio: 4 / 3; background: var(--ink); overflow: hidden; } .ds-vf__plate { position: absolute; inset: 0; background: linear-gradient(var(--ink-rule) 55%, var(--ink-mute) 55%); } .ds-vf__plate::after { content: ''; position: absolute; inset: 0; background-image: radial-gradient(rgb(24 23 28 / 0.3) 0.9px, transparent 1.6px); background-size: 4px 4px; mix-blend-mode: multiply; } .ds-vf__c { position: absolute; width: 34px; height: 34px; border: 3px solid var(--paper); opacity: 0; transition: transform 220ms cubic-bezier(0.16, 1, 0.3, 1), opacity 120ms linear; } .ds-vf__c--tl { top: 10px; left: 10px; border-width: 3px 0 0 3px; border-top-left-radius: 6px; transform: translate(-14px, -14px); } .ds-vf__c--tr { top: 10px; right: 10px; border-width: 3px 3px 0 0; border-top-right-radius: 6px; transform: translate(14px, -14px); } .ds-vf__c--bl { bottom: 10px; left: 10px; border-width: 0 0 3px 3px; border-bottom-left-radius: 6px; transform: translate(-14px, 14px); } .ds-vf__c--br { bottom: 10px; right: 10px; border-width: 0 3px 3px 0; border-bottom-right-radius: 6px; transform: translate(14px, 14px); } .ds-vf__rec { position: absolute; top: 18px; right: 22px; display: inline-flex; align-items: center; gap: 6px; padding: 2px 7px; background: rgb(24 23 28 / 0.82); color: var(--paper); font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; opacity: 0; transform: translateY(-4px); transition: opacity 120ms linear, transform 220ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-vf__dot { width: 7px; height: 7px; border-radius: 50%; background: var(--rec); animation: ds-blink 1s steps(1) infinite; } .ds-vf:hover .ds-vf__c, .ds-vf:focus-visible .ds-vf__c, .ds-vf:hover .ds-vf__rec, .ds-vf:focus-visible .ds-vf__rec { opacity: 1; transform: none; } .ds-vf:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; } @keyframes ds-blink { 50% { opacity: 0.2; } } @media (prefers-reduced-motion: reduce) { .ds-vf__dot { animation: none; } }"
+    },
+    {
+      "name": "Cross Review",
+      "kind": "card",
+      "refersTo": "score-box-head",
+      "description": "The four-reviewer score box every game monthly prints beside a review: ink head with total and stamp, four mono scores split by ink rules.",
+      "html": "<figure class=\"ds-xr\"><figcaption class=\"ds-xr__head\"><span class=\"ds-xr__name\">交叉評測<b class=\"ds-xr__seal\">試玩推薦</b></span><span class=\"ds-xr__total\"><b>30</b>/40</span></figcaption><ol class=\"ds-xr__list\"><li><span class=\"ds-xr__score\">8</span><span class=\"ds-xr__who\">@owl</span></li><li><span class=\"ds-xr__score\">7</span><span class=\"ds-xr__who\">@deer</span></li><li><span class=\"ds-xr__score\">9</span><span class=\"ds-xr__who\">@pixelkid</span></li><li><span class=\"ds-xr__score\">6</span><span class=\"ds-xr__who\">@tofu</span></li></ol></figure>",
+      "css": ".ds-xr { margin: 0; max-width: 420px; border: 3px solid var(--ink); background: var(--paper); color: var(--ink); } .ds-xr__head { display: flex; justify-content: space-between; align-items: baseline; padding: 6px 12px; background: var(--ink); color: var(--paper); font-family: 'Noto Sans TC', sans-serif; font-weight: 900; letter-spacing: 0.1em; } .ds-xr__name { display: inline-flex; align-items: center; gap: 12px; } .ds-xr__seal { display: inline-block; padding: 1px 7px; border: 2px solid var(--paper); border-radius: 4px; box-shadow: inset 0 0 0 1px var(--ink), inset 0 0 0 2.5px var(--paper); font-size: 12px; letter-spacing: 0.12em; transform: rotate(-6deg); } .ds-xr__total { font-family: 'JetBrains Mono', monospace; font-size: 13px; letter-spacing: 0; } .ds-xr__total b { font-size: 22px; } .ds-xr__list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); } .ds-xr__list li { padding: 10px 12px 14px; border-left: 1px solid var(--ink); } .ds-xr__list li:first-child { border-left: 0; } .ds-xr__score { display: block; font-family: 'JetBrains Mono', monospace; font-size: 3rem; font-weight: 700; line-height: 1; letter-spacing: -0.04em; } .ds-xr__who { display: block; margin-top: 6px; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; color: var(--ink-mute); }"
+    },
+    {
+      "name": "Section Head",
+      "kind": "custom",
+      "description": "Magazine section head: Noto 900 title with inline condensed Latin tag, mono folio on the same line, closed by a 4px ink rule.",
+      "html": "<div class=\"ds-sh\"><h2 class=\"ds-sh__title\">新聞快報<span class=\"ds-sh__latin\" lang=\"en\">News</span></h2><p class=\"ds-sh__folio\"><span>P.04</span><span>2026.10</span></p></div>",
+      "css": ".ds-sh { display: grid; grid-template-columns: 1fr auto; align-items: end; gap: 8px 24px; padding-bottom: 12px; border-bottom: 4px solid var(--ink); color: var(--ink); } .ds-sh__title { margin: 0; font-family: 'Noto Sans TC', sans-serif; font-weight: 900; font-size: 3.5rem; line-height: 1; letter-spacing: 0.01em; } .ds-sh__latin { margin-left: 0.4em; font-family: 'Archivo', sans-serif; font-stretch: 70%; font-weight: 800; font-size: 0.38em; letter-spacing: 0.04em; text-transform: uppercase; vertical-align: 0.1em; } .ds-sh__folio { display: flex; gap: 16px; margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; color: var(--ink-mute); }"
+    },
+    {
+      "name": "More Link",
+      "kind": "custom",
+      "description": "Section-closing text link: Noto 900 with a 3px underline and a drawn chevron that slides on hover.",
+      "html": "<a class=\"ds-more\" href=\"#\">全部 8 則新聞</a>",
+      "css": ".ds-more { display: inline-flex; align-items: center; gap: 8px; padding-bottom: 2px; font-family: 'Noto Sans TC', sans-serif; font-weight: 900; color: var(--ink); text-decoration: none; border-bottom: 3px solid currentColor; } .ds-more::after { content: ''; width: 0.55em; height: 0.55em; border-top: 3px solid currentColor; border-right: 3px solid currentColor; transform: rotate(45deg); transition: transform 220ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-more:hover::after { transform: translateX(4px) rotate(45deg); } .ds-more:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Monthly That Never Goes to Press",
+    "overview": "The site is printed, not rendered. It borrows the grammar of the Japanese and Taiwanese game monthly (Famitsu, 電視遊樂雜誌): a masthead that fills the page, cover lines on the plate edge, a contents list with page numbers, a four-reviewer score box, and thumb-index tabs cut into the page edge. Every surface is cream newsprint with black ink. Depth comes from inverting the page into a full ink spread, never from lifting cards off it. Screenshots print through a halftone dot screen, and the sample plates are low-resolution pixel art, so pictures read as reproductions on paper and not as glowing monitor tiles.\n\nDensity is editorial: heavy 4px rules split the issue into sections, 1px hairlines split entries within a section, and a 12-column grid carries the spreads. Headlines are set in Noto Sans TC Black and are the loudest thing on the page after the masthead. Latin sets in Archivo; folios, dates, handles, scores and timecodes set in JetBrains Mono. There is one accent, signal orange, and it belongs to the brand's \"recording\" button: it lights only on things that are live or new, and on the REC dot.\n\nThe one moving part is the brand mark come alive. Hover, focus, or scroll a picture into view on a touch screen, and the viewfinder brackets from the logo snap in around it while a REC dot blinks and a timecode runs. Every transition shares one ease-out-expo curve at 220ms, and nothing animates on entrance.",
+    "keyCharacteristics": [
+      "Cream newsprint (paper) and near-black ink, with full ink spreads that invert the page.",
+      "One accent, signal orange, used only for live, new, and the REC dot.",
+      "Noto Sans TC 900 headlines, Archivo for Latin, JetBrains Mono for folios and numbers.",
+      "Heavy 4px structural rules and 1px hairlines; no drop shadows.",
+      "Halftone screen over every picture; pixel-art sample plates.",
+      "Viewfinder brackets with REC dot and running timecode as the signature interaction.",
+      "Square corners by default; roundness only where the brand mark itself is round."
+    ],
+    "rules": [
+      {
+        "name": "The Always-Recording Rule",
+        "body": "Orange marks only what is live or new right now, plus the REC dot. It never decorates headings, links, borders, hover states, or section furniture. If a thing is not on air, just landed, or recording, it is ink.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two-Ink Rule",
+        "body": "Every surface is either paper or ink. A spread that needs emphasis inverts to ink; it does not get a tint, a gradient, or a third background.",
+        "section": "colors"
+      },
+      {
+        "name": "The Unbroken Word Rule",
+        "body": "Chinese headings never break inside a word. Headlines and titles are segmented into words that each stay on one line, punctuation stays attached to the word before it, and headings use strict line breaking and `text-wrap: pretty`. A title with a full-width colon breaks after the colon.",
+        "section": "typography"
+      },
+      {
+        "name": "The Folio Rule",
+        "body": "Every section head carries its folio: page number and issue date in mono, right-aligned on the same line as the title, above the heavy rule.",
+        "section": "typography"
+      },
+      {
+        "name": "The Print-Not-Lift Rule",
+        "body": "Surfaces never float. Emphasis comes from inversion to ink or a heavier rule, and interaction moves things along the page plane (a tab slides out 6 to 10px, a cover line nudges 4px, contents rows shift 6px), never toward the viewer.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep every surface paper (#eeeae0) or ink (#18171c); invert a whole spread to ink when a section needs weight.",
+      "**Do** reserve Recording Orange (#ff6b2c) for live items, new items, and the REC dot; set orange text only on ink.",
+      "**Do** close each section head with a 4px ink rule and a mono folio (page number and issue date).",
+      "**Do** put pictures through the halftone screen and leave pixel-art plates pixelated.",
+      "**Do** use the 220ms ease-out-expo snap (cubic-bezier(0.16, 1, 0.3, 1)) for movement, and 120 to 160ms linear for color and opacity.",
+      "**Do** keep Chinese headings whole: segment by word and break after a full-width colon.",
+      "**Do** use the viewfinder brackets, not a scale or glow, as the hover and focus response for pictures."
+    ],
+    "donts": [
+      "**Don't** use drop shadows or lift cards off the page; the build has none.",
+      "**Don't** introduce a second accent color or use orange for links, hover states, headings, or decoration.",
+      "**Don't** round square furniture (panels, chips, pictures, the score box); rounded shapes come only from the brand mark and its derivatives (viewfinder brackets, dots, the pill join button, the thumb-tab die cut, the review stamp).",
+      "**Don't** add entrance animations or scroll-triggered reveals; motion responds to hover, focus, and live state only.",
+      "**Don't** set orange text on paper; it fails contrast at 2.37:1."
+    ]
+  }
+}
